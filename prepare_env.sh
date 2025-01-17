@@ -1,5 +1,5 @@
 apt update
-apt install -y unzip zip less htop poppler-utils jq git
+apt install -y unzip zip less htop poppler-utils jq git tmux
 
 git config --global user.email "zilinec.m@gmail.com"
 git config --global user.name "Matus Zilinec"
