@@ -10,4 +10,4 @@ sudo rm -rf /opt/nvim
 sudo tar -C /opt -xzf nvim-linux64.tar.gz
 echo '' >> ~/.profile
 echo 'export PATH="$PATH:/opt/nvim-linux64/bin"' >> ~/.profile
-mkdir ~/.config/nvim/ && cp ./init.vim ~/.config/nvim/init.vim
+mkdir -p ~/.config/nvim/ && cp ./init.vim ~/.config/nvim/init.vim
