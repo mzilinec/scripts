@@ -9,6 +9,9 @@ no apt install -y unzip zip less htop poppler-utils jq git tmux
 git config --global user.email "zilinec.m@gmail.com"
 git config --global user.name "Matus Zilinec"
 
+# install python global dependencies
+pip install uv
+
 # Setup nvim
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
 no rm -rf /opt/nvim
